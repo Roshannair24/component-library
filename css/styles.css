@@ -1,0 +1,99 @@
+/* css reset */
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  /* to set root to 10px */
+  font-size: 62.5%;
+}
+
+:root {
+  --primary-color-dark: #2d3748;
+
+  --primary-color-white: #f7fafc;
+
+  --call-to-action: #2d3748;
+
+  --ascent-color: #4fd1c5;
+
+  --purple: #805ad5;
+
+  --indigo: #3182ce;
+
+  --indigreen: #4fd1c5;
+
+  --green: #48bb78;
+
+  --yellow: #f6e05e;
+
+  --orange: #ed8936;
+
+  --red: #e53e3e;
+
+  --white-a: #ffffff;
+
+  --off-white-b: #e5e7eb;
+}
+
+
+h2{
+  font-size: 3rem;
+
+}
+h3{
+  font-size: 2rem;
+
+}
+
+
+p {
+  font-size: 1.5rem;
+font-weight: 100;
+
+
+
+/* line-height: 1; */
+
+display: block;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+body {
+  background-color: var(--primary-color-white);
+  /* font-family: "Dongle", sans-serif; */
+  /* font-family: 'EB Garamond', serif; */
+font-family: 'Roboto', sans-serif;
+}
+
+.card-basic {
+  min-height: 50px;
+
+  max-width: 350px;
+}
+
+
+.card-basic-top {
+background-image: url("https://unsplash.com/photos/AE3meMQ9DuE");
+}
+
+
+
+.flex-div {
+  display: flex;
+}
+
+.flex-div-direction {
+  flex-direction: column;
+}
+
+.background-primary {
+  background-color: var(--white-a);
+}
