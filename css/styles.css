@@ -40,37 +40,35 @@ html {
   --off-white-b: #e5e7eb;
 }
 
-
-h2{
+h2 {
   font-size: 3rem;
-
+  padding: 1rem 0;
 }
-h3{
+h3 {
   font-size: 2rem;
-
+  padding: 0.5rem 0;
 }
-
 
 p {
   font-size: 1.5rem;
-font-weight: 100;
+  font-weight: 100;
 
+  padding: 0.25rem 0;
 
+  /* line-height: 1; */
 
-/* line-height: 1; */
-
-display: block;
-margin-block-start: 0em;
-margin-block-end: 0em;
-margin-inline-start: 0px;
-margin-inline-end: 0px;
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 body {
   background-color: var(--primary-color-white);
   /* font-family: "Dongle", sans-serif; */
   /* font-family: 'EB Garamond', serif; */
-font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .card-basic {
@@ -79,21 +77,71 @@ font-family: 'Roboto', sans-serif;
   max-width: 350px;
 }
 
-
 .card-basic-top {
-background-image: url("https://unsplash.com/photos/AE3meMQ9DuE");
+  /* background-image: url("https://unsplash.com/photos/AE3meMQ9DuE"); */
 }
-
-
 
 .flex-div {
   display: flex;
 }
 
-.flex-div-direction {
+.flex-div-direction-col {
   flex-direction: column;
+}
+
+.flex-div-direction-row {
+  flex-direction: row;
 }
 
 .background-primary {
   background-color: var(--white-a);
+}
+
+.height-50 {
+  height: 20rem;
+}
+
+.pad-1 {
+  padding: 1rem;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.font-3 {
+  font-size: 3rem;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.background-Img {
+  background-size: cover;
+
+  background-image: url("https://picsum.photos/700/700");
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 2px #888888;
+}
+
+.border-radius-all-8 {
+  border-radius: 8px;
+}
+
+.border-radius-top-8 {
+  border-radius: 8px 8px 0 0;
+}
+
+
+.font-bold{
+
+font-weight: bold;
+
 }

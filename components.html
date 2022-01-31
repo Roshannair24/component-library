@@ -11,17 +11,24 @@
       href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=EB+Garamond:wght@800&family=Roboto:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div
       id="card-basic"
-      class="card-basic flex-div flex-div-direction background-primary"
+      class="card-basic flex-div flex-div-direction-col background-primary box-shadow border-radius-all-8 "
     >
-      <div class="card-basic-top" style="background-color: blue">rth</div>
+      <div
+        class="card-basic-top background-Img height-50 border-radius-top-8"
+        style="background-color: blue"
+      ></div>
 
-      <div class="card-basic-bot" style="background-color: red">
-        <div>
+      <div class="card-basic-bot">
+        <div class="pad-1">
           <h2>Our Changing planet</h2>
 
           <h3>by Kurt Wagner</h3>
@@ -33,8 +40,22 @@
           </p>
         </div>
 
-        <div style="background-color: greenyellow">butt</div>
+        <div class="flex-div flex-div-direction-row">
+          <div class="flex-div flex-div-direction-row gap-20 pad-1 flex-grow">
+            <p class="font-bold">READ</p>
+            <p class="font-bold">BOOKMARK</p>
+          </div>
+
+          <div class="flex-div flex-div-direction-row gap-20 pad-1 border-radius-all-8">
+            <i class="bx bx-heart font-3"></i>
+
+            <i class="bx bxs-share-alt font-3"></i>
+
+            <i class="bx bx-dots-vertical-rounded font-3"></i>
+          </div>
+        </div>
       </div>
     </div>
   </body>
 </html>
+
