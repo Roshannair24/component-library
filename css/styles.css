@@ -13,7 +13,7 @@ html {
 }
 
 :root {
-  --primary-color-dark: #2d3748;
+  /* --primary-color-dark: #2d3748; */
 
   --primary-color-white: #f7fafc;
 
@@ -167,14 +167,28 @@ body {
 }
 
 .color-primary-color-dark {
-  color: var(--primary-color-dark);
+  color: var(--call-to-action);
+}
+
+.color-primary-color-white {
+  color: var(--white-a);
+}
+
+.button-format {
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+.button-format-color-def {
+  border-color:  var(--call-to-action);
 }
 
 
-.button-format{
-
-border-style: solid;
-
-
-
+.button-format-backgroundColor-def {
+background-color: var(--white-a);
 }
+
+.button-format-backgroundColor-cta {
+  background-color: var(--call-to-action);
+  }
