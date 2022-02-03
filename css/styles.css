@@ -146,6 +146,10 @@ body {
   box-shadow: 0px 0px 2px #888888;
 }
 
+.k-box-shadow {
+  box-shadow: 0px 0px 2px #888888;
+}
+
 .border-radius-all-8 {
   border-radius: 8px;
 }
@@ -181,14 +185,97 @@ body {
 }
 
 .button-format-color-def {
-  border-color:  var(--call-to-action);
+  border-color: var(--call-to-action);
 }
 
-
 .button-format-backgroundColor-def {
-background-color: var(--white-a);
+  background-color: var(--white-a);
 }
 
 .button-format-backgroundColor-cta {
   background-color: var(--call-to-action);
-  }
+}
+
+.k-btn {
+  padding: 0.5rem;
+
+  border-radius: 8px;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+.k-primary {
+  color: var(--white-a);
+
+  background-color: var(--call-to-action);
+}
+
+.k-secondary {
+  color: var(--call-to-action);
+
+  background-color: var(--white-a);
+}
+
+.k-avatar {
+  border-radius: 50%;
+
+
+  background-color: grey;
+}
+
+.k-avatar-xs {
+  height: 3rem;
+
+  width: 3rem;
+}
+
+
+.k-avatar-sm {
+  height: 4rem;
+
+  width: 4rem;
+}
+
+
+.k-avatar-md {
+  height: 5rem;
+
+  width: 5rem;
+}
+
+.k-avatar-lg{
+  height: 6rem;
+
+  width: 6rem;
+}
+
+
+.k-avatar-xl{
+  height: 8rem;
+
+  width: 8rem;
+}
+
+.k-avatar-xxl{
+  height: 10rem;
+
+  width: 10rem;
+}
+
+
+.k-alert{
+
+  padding: 0.5rem;
+
+  border-radius: 8px;
+
+  border-style: solid;
+
+  border-width: 1px;
+
+
+
+  width: 30rem;
+}
