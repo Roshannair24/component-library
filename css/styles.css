@@ -25,15 +25,23 @@ html {
 
   --indigo: #3182ce;
 
+  --indigo-light: #8ec2f3;
+
   --indigreen: #4fd1c5;
 
   --green: #48bb78;
 
+  --green-light: #45f08c;
+
   --yellow: #f6e05e;
+
+  --yellow-light: #f7eaa6;
 
   --orange: #ed8936;
 
   --red: #e53e3e;
+
+  --red-light: #f39e9e;
 
   --white-a: #ffffff;
 
@@ -221,7 +229,6 @@ body {
 .k-avatar {
   border-radius: 50%;
 
-
   background-color: grey;
 }
 
@@ -231,13 +238,11 @@ body {
   width: 3rem;
 }
 
-
 .k-avatar-sm {
   height: 4rem;
 
   width: 4rem;
 }
-
 
 .k-avatar-md {
   height: 5rem;
@@ -245,28 +250,25 @@ body {
   width: 5rem;
 }
 
-.k-avatar-lg{
+.k-avatar-lg {
   height: 6rem;
 
   width: 6rem;
 }
 
-
-.k-avatar-xl{
+.k-avatar-xl {
   height: 8rem;
 
   width: 8rem;
 }
 
-.k-avatar-xxl{
+.k-avatar-xxl {
   height: 10rem;
 
   width: 10rem;
 }
 
-
-.k-alert{
-
+.k-alert {
   padding: 0.5rem;
 
   border-radius: 8px;
@@ -275,7 +277,83 @@ body {
 
   border-width: 1px;
 
+  display: inline-flex;
 
+  flex-direction: row;
 
-  width: 30rem;
+  flex-basis: 50px;
+
+  justify-content: center;
+  min-width: 30rem;
+
+  background-color: var(--white-a);
+
+  color: var(--call-to-action);
+
+  border-color: var(--call-to-action);
+
+  box-shadow: 0px 0px 2px #888888;
+}
+
+.k-alert-success {
+  color: var(--call-to-action);
+  border-color: var(--green);
+
+  background-color: var(--green-light);
+
+  box-shadow: 0px 0px 2px var(--green-light);
+}
+
+.k-alert-danger {
+  color: var(--call-to-action);
+  border-color: var(--red);
+
+  background-color: var(--red-light);
+
+  box-shadow: 0px 0px 2px var(--red-light);
+}
+
+.k-alert-warning {
+  color: var(--call-to-action);
+  border-color: var(--yellow);
+
+  background-color: var(--yellow-light);
+
+  box-shadow: 0px 0px 2px var(--yellow-light);
+}
+
+.k-alert-info {
+  color: var(--call-to-action);
+  border-color: var(--indigo);
+
+  background-color: var(--indigo-light);
+
+  box-shadow: 0px 0px 2px var(--indigo-light);
+}
+
+.k-badge {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+
+  background-color: var(--white-a);
+
+  border-color: var(--call-to-action);
+  border-width: 0.4rem;
+  border-style: solid;
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.k-badge .k-dnd {
+  height: 0.5rem;
+
+  width: 1rem;
+
+  background-color: black;
+
+  border-radius: 0.15rem;
 }
