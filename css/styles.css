@@ -446,12 +446,14 @@ body {
 .badge-avatar {
   z-index: 0;
 
-  display: inline-flex;
-justify-content: flex-end;
-flex-direction: column;
+  /* display: inline-flex; */
+  display: flex;
+  max-width: 6rem;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
-.badge-avatar .k-avatar{
+.badge-avatar .k-avatar {
   z-index: 1;
 }
 
@@ -459,11 +461,9 @@ flex-direction: column;
   z-index: 2;
   position: absolute;
   align-self: flex-end;
-background-color: var(--white-a);
+  background-color: var(--white-a);
 }
 
-.badge-avatar-container{
-
-background-color:var(--white-a)
-
+.badge-avatar-container {
+  background-color: var(--white-a);
 }
