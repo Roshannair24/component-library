@@ -212,6 +212,41 @@ body {
   border-style: solid;
 
   border-width: 1px;
+
+  display: flex;
+
+  align-items: center;
+
+
+
+}
+
+.k-floating-action-btn {
+  padding: 0.5rem;
+
+  width: 5rem;
+
+  height: 5rem;
+  border-style: solid;
+
+  border-width: 1px;
+
+  border-radius: 50%;
+
+  background-color: var(--white-a);
+  color: var(--call-to-action);
+border-color:var(--call-to-action) ;
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  box-shadow: 0px 0px 4px #888888;
+}
+
+.k-floating-action-btn .bx {
+  font-size: 3rem;
 }
 
 .k-primary {
@@ -466,4 +501,25 @@ body {
 
 .badge-avatar-container {
   background-color: var(--white-a);
+}
+
+.badge-icon {
+  color: var(--call-to-action);
+
+  position: relative;
+
+  display: flex;
+
+  width: 4rem;
+
+  flex-direction: row-reverse;
+}
+
+.badge-icon .bx {
+  font-size: 4rem;
+  padding: 0.5rem;
+}
+
+.badge-icon .k-badge {
+  position: absolute;
 }
