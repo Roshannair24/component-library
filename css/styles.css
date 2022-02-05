@@ -292,7 +292,7 @@ body {
 
   border-color: var(--call-to-action);
 
-  box-shadow: 0px 0px 2px #888888;
+  box-shadow: 0px 0px 4px #888888;
 }
 
 .k-alert-success {
@@ -301,7 +301,7 @@ body {
 
   background-color: var(--green-light);
 
-  box-shadow: 0px 0px 2px var(--green-light);
+  box-shadow: 0px 0px 4px var(--green-light);
 }
 
 .k-alert-danger {
@@ -310,7 +310,7 @@ body {
 
   background-color: var(--red-light);
 
-  box-shadow: 0px 0px 2px var(--red-light);
+  box-shadow: 0px 0px 4px var(--red-light);
 }
 
 .k-alert-warning {
@@ -319,7 +319,7 @@ body {
 
   background-color: var(--yellow-light);
 
-  box-shadow: 0px 0px 2px var(--yellow-light);
+  box-shadow: 0px 0px 4px var(--yellow-light);
 }
 
 .k-alert-info {
@@ -328,17 +328,20 @@ body {
 
   background-color: var(--indigo-light);
 
-  box-shadow: 0px 0px 2px var(--indigo-light);
+  box-shadow: 0px 0px 4px var(--indigo-light);
 }
 
 .k-badge {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2.7rem;
+  width: 2.7rem;
   border-radius: 50%;
 
-  background-color: var(--white-a);
+  background-color: #2d374800;
 
-  border-color: var(--call-to-action);
+  /* border-color: var(--call-to-action); */
+
+  border-color: #2d374800;
+
   border-width: 0.4rem;
   border-style: solid;
   display: flex;
@@ -353,7 +356,114 @@ body {
 
   width: 1rem;
 
-  background-color: black;
+  background-color: var(--white-a);
 
   border-radius: 0.15rem;
+}
+
+.k-badge .k-online {
+  height: 100%;
+
+  width: 100%;
+
+  background-color: var(--green);
+
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px var(--green-light);
+}
+
+.k-online-info {
+  height: 100%;
+
+  width: 100%;
+
+  background-color: var(--indigo);
+
+  color: var(--white-a);
+
+  border-radius: 50%;
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.k-online-dnd {
+  height: 100%;
+
+  width: 100%;
+
+  background-color: var(--red);
+
+  color: var(--white-a);
+
+  border-radius: 50%;
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.k-online-idle {
+  height: 100%;
+
+  width: 100%;
+
+  background-color: var(--yellow);
+
+  color: var(--white-a);
+
+  border-radius: 50%;
+  display: flex;
+
+  align-items: flex-start;
+}
+
+.k-badge .k-idle {
+  height: 1.1rem;
+
+  width: 1.4rem;
+
+  transform: rotate(-20deg);
+
+  background-color: var(--white-a);
+
+  border-radius: 50%;
+}
+
+.k-badge .k-offline {
+  height: 100%;
+
+  width: 100%;
+
+  background-color: var(--off-white-b);
+
+  border-radius: 50%;
+}
+
+.badge-avatar {
+  z-index: 0;
+
+  display: inline-flex;
+justify-content: flex-end;
+flex-direction: column;
+}
+
+.badge-avatar .k-avatar{
+  z-index: 1;
+}
+
+.badge-avatar .k-badge {
+  z-index: 2;
+  position: absolute;
+  align-self: flex-end;
+background-color: var(--white-a);
+}
+
+.badge-avatar-container{
+
+background-color:var(--white-a)
+
 }
