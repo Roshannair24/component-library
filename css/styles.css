@@ -733,3 +733,10 @@ transition: all 0.5s ease;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+.master{
+
+
+  display: flex;
+}
