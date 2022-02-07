@@ -383,6 +383,14 @@ body {
   transition: all 0.5s ease;
 }
 
+.k-no-outline {
+  color: var(--call-to-action);
+
+  background-color: #ffffff00;
+}
+
+
+
 .k-avatar {
   border-radius: 50%;
 
@@ -716,12 +724,15 @@ header h1 {
   padding: 1rem;
 }
 
-.header-link-container a:hover{
-  background: rgb(19,0,66);
-  background: linear-gradient(90deg, rgba(19,0,66,1) 0%, rgba(205,1,176,1) 100%);
+.header-link-container a:hover {
+  background: rgb(19, 0, 66);
+  background: linear-gradient(
+    90deg,
+    rgba(19, 0, 66, 1) 0%,
+    rgba(205, 1, 176, 1) 100%
+  );
 
-
-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .header-ascent {
@@ -734,9 +745,10 @@ transition: all 0.5s ease;
   -webkit-text-fill-color: transparent;
 }
 
-
-.master{
-
-
+.master {
   display: flex;
+}
+
+.sidebar {
+  width: 100rem;
 }
