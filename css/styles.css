@@ -892,3 +892,18 @@ flex-direction:column;
 
  gap: 5rem;
 }
+
+
+.avatar-iframe-holder{
+
+
+display: flex;
+
+
+align-items: center;
+
+
+justify-content: center;
+
+
+}
