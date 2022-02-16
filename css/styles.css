@@ -850,6 +850,7 @@ header h1 {
 
 .elements-container {
   display: flex;
+}
 
   flex-wrap: wrap;
 
@@ -867,29 +868,14 @@ header h1 {
   gap: 5rem;
 }
 
-.badgesAndIframe {
+.input-iframe-holder {
   display: flex;
+
+  width: 100%;
 }
-
-.all-badges {
-  width: 50%;
-
-  justify-content: center;
-
- gap: 5rem;
-}
-
-
-.avatar-iframe-holder{
-
-
-display: flex;
-
 
 align-items: center;
 
-
-justify-content: center;
-
-
+.input-iframe-holder .all-inputs{
+ width: 50%;
 }
