@@ -867,42 +867,14 @@ header h1 {
   gap: 5rem;
 }
 
-.k-chip {
-  width: 7rem;
-
-  height: 3rem;
-
-  background-color: grey;
+.badgesAndIframe {
   display: flex;
+}
+
+.all-badges {
+  width: 50%;
 
   justify-content: center;
 
-  border-radius: 8px;
-
   align-items: center;
-}
-
-.k-chip .bx {
-  font-size: 2rem;
-}
-
-.k-chip-success {
-  background-color: var(--green);
-}
-
-
-.k-chip-danger {
-  background-color: var(--red);
-}
-
-.k-chip-info {
-  background-color: var(--orange);
-}
-
-
-
-.chip-align {
-  gap: 5px;
-
-  justify-content: flex-start;
 }
