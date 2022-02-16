@@ -438,6 +438,7 @@ body {
   width: 10rem;
 }
 
+
 .iframeAndCode {
 
 
@@ -522,6 +523,7 @@ width: 50%;
 
   box-shadow: 0px 0px 4px var(--indigo-light);
 }
+
 
 .k-badge {
   height: 2.7rem;
@@ -791,7 +793,8 @@ header h1 {
 .all-content {
   width: 75vw;
   width: calc(100% - 25rem);
-
+display: flex;
+flex-direction: column;
   color: var(--call-to-action);
 }
 
@@ -872,6 +875,10 @@ header h1 {
 
 .elements-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5rem;
 }
 
 
@@ -895,3 +902,61 @@ header h1 {
 .input-iframe-holder .all-inputs{
  width: 50%;
 }
+
+.chips-cls{
+ padding: 1rem;
+}
+
+.k-chip {
+  width: 7rem;
+
+  height: 3rem;
+
+  background-color: grey;
+  display: flex;
+
+  justify-content: center;
+
+  border-radius: 8px;
+
+  align-items: center;
+}
+
+.k-chip .bx {
+  font-size: 2rem;
+}
+
+.k-chip-success {
+  background-color: var(--green);
+}
+
+
+.k-chip-danger {
+  background-color: var(--red);
+}
+
+.k-chip-info {
+  background-color: var(--orange);
+}
+
+
+
+.chip-align {
+  gap: 5px;
+
+  justify-content: flex-start;
+}
+
+.avatar-iframe-holder{
+
+
+  display: flex;
+  
+  
+  align-items: center;
+  
+  
+  justify-content: center;
+  
+  
+  }
