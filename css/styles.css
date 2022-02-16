@@ -876,5 +876,20 @@ header h1 {
 
   justify-content: center;
 
-  align-items: center;
+ gap: 5rem;
+}
+
+
+.avatar-iframe-holder{
+
+
+display: flex;
+
+
+align-items: center;
+
+
+justify-content: center;
+
+
 }
