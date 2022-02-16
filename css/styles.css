@@ -438,6 +438,28 @@ body {
   width: 10rem;
 }
 
+.iframeAndCode {
+
+
+  display: flex;
+}
+
+.alerts-container {
+ 
+  width: 50%;
+  align-content: space-around;
+
+  flex-direction: row;
+}
+
+.iframe-holder{
+
+width: 50%;
+
+
+
+
+}
 .k-alert {
   padding: 0.5rem;
 
@@ -852,13 +874,7 @@ header h1 {
   display: flex;
 }
 
-  flex-wrap: wrap;
 
-  justify-content: center;
-  align-items: flex-end;
-
-  gap: 5rem;
-}
 
 .elements-container-col {
   display: flex;
@@ -874,7 +890,7 @@ header h1 {
   width: 100%;
 }
 
-align-items: center;
+
 
 .input-iframe-holder .all-inputs{
  width: 50%;
