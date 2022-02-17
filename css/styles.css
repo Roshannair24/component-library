@@ -239,10 +239,9 @@ body {
   background-color: var(--white-a);
 
   outline: none;
-
 }
 
- .k-input {
+.k-input {
   padding: 0.5rem;
 
   border-radius: 8px;
@@ -256,10 +255,7 @@ body {
   background-color: var(--white-a);
 
   outline: none;
-
 }
-
-
 
 .k-input:focus {
   border-color: var(--indigo);
@@ -1050,7 +1046,6 @@ header h1 {
   background-color: var(--green-light);
 }
 
-
 /* navigation */
 nav {
   position: fixed;
@@ -1062,10 +1057,12 @@ nav {
   flex-direction: row;
   background-color: rgba(255, 255, 255, 0.171);
 
-
-  background: rgb(19,0,66);
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.164) 100%);
-
+  background: rgb(19, 0, 66);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.164) 100%
+  );
 
   padding: 1rem;
   font-size: 2rem;
@@ -1100,33 +1097,48 @@ nav {
   display: none;
 }
 
-
 .k-nav img {
   height: 4rem;
 
   width: 4rem;
-
 }
 
 /* navigation */
 
-.navAndIframe nav{
+.navAndIframe nav {
   position: relative;
   background-color: var(--primary-color-white);
 
-
-  box-shadow: 0  0 5px var(--call-to-action);
+  box-shadow: 0 0 5px var(--call-to-action);
 }
 
-.navAndIframe nav a{
-text-decoration: none;
+.navAndIframe nav a {
+  text-decoration: none;
 }
 
-.nav-frame-holder{
+.nav-frame-holder {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-nav{
+nav {
   z-index: 1;
+}
+
+/* rating */
+.rating-iframe-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.k-star-collection-holder {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.k-star-collection {
+  font-size: 2rem;
 }
