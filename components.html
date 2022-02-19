@@ -421,7 +421,9 @@
             <button class="k-btn k-secondary">
               <p class="font-bold">Button</p>
             </button>
-
+            <button class="k-btn k-cancel-col">
+              <p class="font-bold">Cancel</p>
+            </button>
             <button class="k-btn k-primary k-box-shadow">
               <p class="font-bold">Button</p>
             </button>
@@ -1343,11 +1345,7 @@
           </div>
         </div>
 
-        <div
-          id="text-utilities-container-id"
-          class="id-cls"
-      
-        >
+        <div id="text-utilities-container-id" class="id-cls">
           <h2>Text utilities</h2>
 
           <p>
@@ -1368,18 +1366,98 @@
               <p>Paragraph style</p>
 
               <p class="font-bold">Paragraph style bold</p>
-              <p class="font-bold grey">Paragraph style bold grey</p>
+              <p class="font-bold k-grey">Paragraph style bold grey</p>
 
               <small>Small text</small>
 
               <p><em> Emphasis </em></p>
             </div>
-            <div >
+            <div>
               <iframe
                 src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=71px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Ch1%253EHeading%2520H1%253C%252Fh1%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ESub%2520Heading%2520h2%253C%252Fh2%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EParagraph%2520style%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-bold%2522%253EParagraph%2520style%2520bold%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-bold%2520grey%2522%253EParagraph%2520style%2520bold%2520grey%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253ESmall%2520text%253C%252Fsmall%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%253Cem%253E%2520Emphasis%2520%253C%252Fem%253E%253C%252Fp%253E"
                 style="
                   width: 500px;
                   height: 500px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-container-id" class="id-cls">
+          <h2>Modal</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            ullamcorper dapibus dapibus. Sed eget odio nibh. Nulla ut tempus
+            neque. Sed tristique mi lorem, non pharetra velit faucibus id. Sed
+            mollis, odio vitae porta mollis, tellus libero ultrices lectus,
+            condimentum faucibus ligula dui id nunc. Fusce id blandit justo, id
+            luctus lorem.
+          </p>
+
+          <div class="modalAndIframe">
+            <div class="modals-container">
+              <div class="k-modal k-box-shadow">
+                <div class="k-modal-top">
+                  <p class="font-bold">
+                    Are you sure you want to exit the app?
+                  </p>
+
+                  <i class="bx bx-x"></i>
+                </div>
+
+                <div class="k-modal-mid">
+                  <p>Changes made will not be saved.</p>
+                </div>
+
+                <div class="k-modal-bot">
+                  <button class="k-btn k-cancel-col">
+                    <p class="font-bold">Cancel</p>
+                  </button>
+
+                  <button class="k-btn k-secondary">
+                    <p class="font-bold">Exit App</p>
+                  </button>
+                </div>
+              </div>
+
+              <div class="k-modal k-box-shadow">
+                <div class="k-modal-top">
+                  <p class="font-bold">
+                    Are you sure you want to submit the Documents?
+                  </p>
+
+                  <i class="bx bx-x"></i>
+                </div>
+
+                <div class="k-modal-mid">
+                  <p>Documents once submitted cant be changed.</p>
+                </div>
+
+                <div class="k-modal-bot">
+                  <button class="k-btn k-success-col">
+                    <p class="font-bold">Submit</p>
+                  </button>
+
+                  <button class="k-btn k-secondary">
+                    <p class="font-bold">Cancel</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-iframe-container">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=71px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522k-modal%2520k-box-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522k-modal-top%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-bold%2522%253EAre%2520you%2520sure%2520you%2520want%2520to%2520exit%2520the%2520app%253F%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522bx%2520bx-x%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522k-modal-mid%2522%253E%250A%2520%2520%2520%2520%253Cp%253EChanges%2520made%2520will%2520not%2520be%2520saved.%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522k-modal-bot%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522k-btn%2520k-cancel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-bold%2522%253ECancel%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522k-btn%2520k-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-bold%2522%253EExit%2520App%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                style="
+                  width: 500px;
+                  height: 654px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
