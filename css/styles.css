@@ -847,12 +847,12 @@ header h1 {
   display: flex;
   flex-direction: column;
   color: var(--call-to-action);
+  margin-top: 7rem;
+  padding-right: 7rem;
 }
 
 .sidebar {
-  /* width: 50rem; */
-  /* flex: 0 0 25rem; */
-
+  margin-top: 7rem;
   position: fixed;
   width: 25rem;
 }
@@ -942,13 +942,31 @@ header h1 {
 
 .input-iframe-holder {
   display: flex;
-
+justify-content: space-between;
   width: 100%;
 }
 
 .input-iframe-holder .all-inputs {
   width: 50%;
 }
+
+/* chips */
+
+.chipAndIframe{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.chip-div-master-container{
+  padding: 7rem;
+
+display: flex;
+flex-grow: 1;
+align-items: center;
+}
+
+
 
 .chips-cls {
   padding: 1rem;
@@ -987,8 +1005,8 @@ header h1 {
 
 .chip-align {
   gap: 5px;
-
   justify-content: flex-start;
+  width: 100%;
 }
 
 .avatar-iframe-holder {
@@ -1276,7 +1294,7 @@ nav {
 .list-iframe-v-container {
   display: flex;
   justify-content: space-between;
-  padding: 0 5rem;
+  padding-left: 7rem;
 }
 
 .list-iframe-v-container .list-iframe-v-container-leftside {
