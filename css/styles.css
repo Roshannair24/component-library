@@ -52,6 +52,14 @@ html {
   --off-white-b: #e5e7eb;
 }
 
+.grey {
+  color: var(--off-white-b);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
 h2 {
   font-size: 2.5rem;
   padding: 1rem 0;
@@ -1240,4 +1248,21 @@ nav {
   justify-content: center;
   align-content: center;
   align-items: center;
+}
+
+.textAndIframe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-utilities-text-holder {
+  flex-grow: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
