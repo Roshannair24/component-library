@@ -1,19 +1,18 @@
-window.addEventListener("load", reportWindowSize);
-window.addEventListener("resize", reportWindowSize);
+// window.addEventListener("load", reportWindowSize);
+// window.addEventListener("resize", reportWindowSize);
 
-function reportWindowSize() {
-  if (window.innerWidth <= 500) {
-    // document.querySelector("iframe").style.width = "300px";
+// function reportWindowSize() {
+//   if (window.innerWidth <= 500) {
 
-    document.querySelector("#homepage-iframe").style.width = "300px";
+//     document.querySelector("#homepage-iframe")?.style.width = "300px";
 
-    let allIframes = document.querySelectorAll("iframe");
+//     let allIframes = document.querySelectorAll("iframe");
 
-    allIframes.forEach((currentValue, index, arr) => {
-      currentValue.style.width = "300px";
-    });
-  }
-}
+//     allIframes.forEach((currentValue, index, arr) => {
+//       currentValue?.style.width = "300px";
+//     });
+//   }
+// }
 
 let darkBtn = document.querySelector("#nav-dark-mode-btn");
 
